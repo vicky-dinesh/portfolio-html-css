@@ -1,0 +1,77 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(56, 55, 55, 0.9);
+    color: #FFF;
+    padding: 10%;
+    border: #FFF solid;
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+strong {
+    color: aqua;
+    text-decoration: underline;
+}
+
+.links {
+    float: right;
+}
+
+a {
+    padding: 5px;
+    border: 1px solid black;
+    margin: 8px;
+    border-radius: 8px;
+    background: #52BE80;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.hobbies-link {
+    padding: 10px 20px 10px 20px;
+}
+
+.contact-link {
+    padding: 10px 20px 10px 20px;
+}
+
+.main-form {
+    width: 100%;
+}
+
+.sub-div{
+    width: 25%;
+    margin: auto;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    padding: 25px;
+}
+
+.sub-div h1 {
+    text-align: center;
+}
+
+.sub-div form {
+    margin-top: 10px;
+}
+
+.sub-div label {
+    font-size: 1.2em;
+}
+
+textarea {
+    display: block;
+}
+
+.sub-div input[type=submit]{
+    background: #7FB3D5;
+    padding: 10px 50px;
+    margin-top: 10px;
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+}
